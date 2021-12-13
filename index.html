@@ -5,14 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js"></script>
+    
 </head>
 <body>
-    <label for="email">emailid</label>
-    <input type="text" name="email" id="email" value="">
-    <label for="password">password</label>
-    <input type="text" name="password" id="password" value="">
-    <button onclick="myFunction()">submit</button>
-    <div id="demo"></div>
+   <script>
+       var userid = prompt("userid");
+       var password = prompt("password");
+document.write(userid);
+if (userid=="RVS" && password=="cas"){
+    alert("success");
+}
+else{
+    alert("invalid");
+
+}
+   </script>
 </body>
 </html>
